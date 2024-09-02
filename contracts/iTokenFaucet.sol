@@ -20,7 +20,7 @@ contract ITokenFaucet is Ownable {
 
     error AlreadyClaimed();
 
-    event Claimed(address _cliamer, uint256 _amount);
+    event Claimed(address _claimer, uint256 _amount);
 
     function claim() external {
         if ((block.timestamp - lastClaimed[msg.sender]) < claimInterval) {
