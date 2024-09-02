@@ -7,7 +7,7 @@ dotenv.config();
 
 const config: HardhatUserConfig = {
   solidity: {
-    version: "0.8.26",
+    version: "0.8.24",
   },
   networks: {
     morphTestnet: {
