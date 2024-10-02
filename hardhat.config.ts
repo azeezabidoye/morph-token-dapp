@@ -25,7 +25,7 @@ const config: HardhatUserConfig = {
         network: "morphTestnet",
         chainId: 2810,
         urls: {
-          apiURL: "https://explorer-api-holesky.morphl2.io/api? ",
+          apiURL: "https://explorer-api-holesky.morphl2.io/api?",
           browserURL: "https://explorer-holesky.morphl2.io/",
         },
       },
